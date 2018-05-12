@@ -20,4 +20,15 @@ img {
 
 .punt {
     font-weight: bold;
+    display: flex;
+
+}
+
+.concurrentieGeheel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
 }

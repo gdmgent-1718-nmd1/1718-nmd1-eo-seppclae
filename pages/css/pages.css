@@ -31,6 +31,8 @@ img {
     justify-content: space-between;
     margin: 0 auto;
     text-align: center;
+    background-color: red;
+
 
 
 }
@@ -38,4 +40,8 @@ img {
 .analy {
     justify-content: center;
     align-items: center;
+}
+
+.analy p {
+    width: 200px;
 }

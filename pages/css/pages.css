@@ -20,6 +20,9 @@ img {
 
 .punt {
     font-weight: bold;
+    color: red;
+    text-align: center; 
+    padding: 10px;
     display: flex;
 
 }
@@ -31,17 +34,14 @@ img {
     justify-content: space-between;
     margin: 0 auto;
     text-align: center;
-    background-color: red;
-
-
-
 }
 
 .analy {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.analy p {
-    width: 200px;
+    /* background-color: red; */
+    width: 300px;
+    margin-top: 20px;
 }

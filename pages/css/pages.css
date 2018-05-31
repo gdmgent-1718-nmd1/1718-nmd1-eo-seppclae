@@ -1,3 +1,9 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -7,8 +13,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #333;
+    font-family: 'Roboto' , sans-serif;
     line-height: 1.5em;
     padding: 25px;
+
 }
 
 img {
@@ -16,6 +24,21 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+.info {
+    color:hsla(265, 63%, 55%, 1);
+}
+
+.intro {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: hsla(265, 63%, 55%, 1);
+
+}
 
 
 .punt {
@@ -67,7 +90,7 @@ img {
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    background-color: black;
+    background-color: hsla(265, 63%, 55%, 1);
     color: white;
 
 }

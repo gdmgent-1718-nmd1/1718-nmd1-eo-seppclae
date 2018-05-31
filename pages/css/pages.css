@@ -58,3 +58,31 @@ img {
 .posNeg {
     padding: 20px;
 }
+
+
+.scenarios {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+
+}
+
+
+.scenarios p {
+
+    width: 300px;
+}
+
+.horsce {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+
+}

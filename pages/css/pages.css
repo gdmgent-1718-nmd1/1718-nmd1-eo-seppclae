@@ -1,9 +1,4 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
-
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -13,20 +8,20 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #333;
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
     padding: 25px;
-
 }
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 100%;
+    /* Afbeeldingen responsive maken */
 }
 
 /* Voeg jouw css hieraan toe */
 
 .info {
-    color:hsla(265, 63%, 55%, 1);
+    color: hsla(265, 63%, 55%, 1);
 }
 
 .intro {
@@ -37,23 +32,20 @@ img {
     align-items: center;
     width: 50%;
     color: hsla(265, 63%, 55%, 1);
-
 }
-
 
 .punt {
     font-weight: bold;
     color: green;
-    text-align: center; 
+    text-align: center;
     padding: 10px;
     display: flex;
-
 }
 
 .puntRood {
     font-weight: bold;
     color: red;
-    text-align: center; 
+    text-align: center;
     padding: 10px;
     display: flex;
 }
@@ -82,7 +74,6 @@ img {
     padding: 20px;
 }
 
-
 .scenarios {
     display: flex;
     justify-content: space-between;
@@ -92,12 +83,9 @@ img {
     margin: 0 auto;
     background-color: hsla(265, 63%, 55%, 1);
     color: white;
-
 }
 
-
 .scenarios p {
-
     width: 300px;
 }
 
@@ -107,5 +95,103 @@ img {
     flex-direction: row;
     width: 50%;
     margin: 0 auto;
+}
+.styleGuide {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 
+.titleStyle {
+    color: hsla(265, 63%, 55%, 1);
+}
+
+.nav {
+    background-color: black;
+    width: 50%;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.knopNav {
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.knopNav:hover {
+    color: hsla(265, 63%, 55%, 1);
+}
+
+.knopNav:focus {
+    border-bottom: 1px solid white;
+}
+
+
+.navLineUp {
+    background-color: black;
+    width: 50%;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: center;
+}
+
+
+
+.knopLine {
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid hsla(265, 63%, 55%, 1);
+    border-radius: 20px;
+
+}
+
+.knopLine:hover {
+    border: 1px solid white;
+}
+
+.knopLine:focus {
+background-color: hsla(265, 63%, 55%, 1);
+}
+
+
+.navLineUp ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marginR {
+    margin-right: 310px;
 }

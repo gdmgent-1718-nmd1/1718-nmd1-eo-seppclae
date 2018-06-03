@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -9,6 +9,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #333;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     line-height: 1.5em;
     padding: 25px;
 }
@@ -99,10 +100,12 @@ img {
 .styleGuide {
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin: 0 auto;
     justify-content: center;
+    align-items: flex-start;
     background-color: white;
-    align-items: center;
+    margin-left: 100px;
 }
 
 .titleStyle {
@@ -226,4 +229,47 @@ i {
 i:hover {
     background-color: white;
     color: black;
+}
+
+.light {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.regular {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.medium {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+
+.kleuren {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+}
+
+.kleuren p {
+    margin: 20px;
+}
+
+.paars {
+    background-color: #8044D4;
+    padding: 40px;
+}
+
+.rood {
+    background-color: #D44444;
+    padding: 40px;
+}
+
+.zwart {
+    background-color: black;
+    padding: 40px;
 }

@@ -94,7 +94,8 @@ img {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 50%;
+    margin: 0 auto;
+    width: 60%;
     margin: 0 auto;
 }
 .styleGuide {
@@ -180,7 +181,7 @@ nav ul {
 }
 
 .knopLine:hover {
-    border: 1px solid white;
+    hsla(265, 63%, 55%, 1);
 }
 
 .knopLine:focus {
